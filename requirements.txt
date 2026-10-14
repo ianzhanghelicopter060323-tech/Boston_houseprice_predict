@@ -1,0 +1,6 @@
+# Python 3.8；保留 docs/task3.md 使用的 paddle.fluid 接口。
+paddlepaddle==1.8.5
+numpy==1.23.5
+matplotlib==3.7.5
+# 旧版 Paddle 生成的协议代码需要兼容版本的 Protobuf。
+protobuf==3.20.3

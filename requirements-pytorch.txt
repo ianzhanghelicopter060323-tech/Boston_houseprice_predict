@@ -1,0 +1,4 @@
+# Python 3.8 的 GPU 版 PyTorch，使用 CUDA 12.1 运行库。
+# 安装：python -m pip install --no-cache-dir -r requirements-pytorch.txt
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1+cu121
