@@ -2,3 +2,6 @@ docs/
 data/
 .venv/
 .vscode/
+__pycache__/
+*.py[cod]
+outputs/
