@@ -11,5 +11,5 @@ class Setmodel(nn.Module):
             out_features=1
         )
 
-    def forward(self) :
-        return self.layers
+    def forward(self, x) :
+        return self.layers(x)
