@@ -11,6 +11,7 @@ import data_prepare as da
 import predict
 from visualization import OUTPUT_DIR, draw_feature_ranges, draw_train_process
 
+torch.manual_seed(0)
 
 def train_all(epochs: int, show: bool = False) -> None :
     """ 主函数调用训练 """
